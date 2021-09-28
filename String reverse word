@@ -1,0 +1,4 @@
+string = str(input("Enter the sentence to be reversed"))
+words = string.split(' ')
+rev_str = ' '.join(reversed(words))
+print(rev_str)
