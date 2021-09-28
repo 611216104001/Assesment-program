@@ -1,0 +1,11 @@
+string = str(input("Enter the sentence to be reversed: \n"))
+words = string.split(' ')
+new_word = []
+for char in words:
+   new_word.append(char[::-1])
+rev_str = " ".join(new_word)
+rev_rev_str = " ".join(reversed(new_word))
+print("Reverse of each word in a string: \n")
+print(rev_str)
+print("Reverse of each reversed word in a string: \n")
+print(rev_rev_str)
